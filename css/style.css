@@ -23,7 +23,13 @@ body {
 }
 .alert {
     display: none;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
 }
 .card-header {
     font-weight: bold;
+}
+.card{
+    background-color: #DCE0D9;
 }
