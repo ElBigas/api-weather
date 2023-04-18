@@ -1,6 +1,7 @@
 body {
     padding-top: 2.4rem;
     width: 100%;
+    background-image: url(../img/img-bg/50n.jpg) ;
 }
 
 .city {
@@ -11,15 +12,21 @@ body {
     font-size: 1rem;
 }
 
-.container-temp{
+.container-temp {
     font-size: 5.3rem;
     font-weight: 900;
     cursor: pointer;
     user-select: none
 }
-.weather{
+
+.weather {
     font-size: 2rem;
 }
-.low-high{
+
+.low-high {
     font-size: 1.2rem;
+}
+
+.alert {
+    display: none;
 }

@@ -11,6 +11,7 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/header.png">
 
     <script src="https://kit.fontawesome.com/d1025aa395.js" crossorigin="anonymous"></script>
 
@@ -19,25 +20,25 @@
 
 <body >
 
-    <div class="container p-0 d-flex justify-content-center">
+    <div class="container p-0 d-flex flex-column align-items-center">
 
         <div class="card text-center shadow-lg" style="width: 24rem;">
 
-            <div class="card-header">CLIMA E TEMPERATURA</div>
+            <div class="card-header">What is the weather for today?</div>
 
             <div class="card-body">
-                <div class="city">Ibiporã, BR</div>
-                <div class="date">Sexta, 14 de abril de 2023</div>
+                <div class="city">Cidade</div>
+                <div class="date">Data</div>
 
                 <div class="container-img">
                     <img src="img/icons/unknown.png" alt="">
                 </div>
                 <div class="container-temp d-flex justify-content-center">
-                    <div>22</div>
+                    <div>Temp</div>
                     <span>°C</span>
                 </div>
-                <div class="weather">Nublado</div>
-                <div class="low-high">22°C / 23°C</div>
+                <div class="weather">Clima</div>
+                <div class="low-high">Máxima / Mínima</div>
             </div>
 
             <div class="card-footer">
@@ -49,6 +50,9 @@
                   </div>
             </div>
         </div>
+
+        <div class="alert alert-danger mt-3" role="alert"></div>
+
     </div>
 
     <script src="main.js"></script>
